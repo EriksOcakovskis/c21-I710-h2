@@ -30,6 +30,7 @@
 		221748F01FF1157800A2B724 /* ingredients.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ingredients.json; sourceTree = "<group>"; };
 		221748F31FF1322700A2B724 /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
 		221748F41FF1341900A2B724 /* prices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = prices.json; sourceTree = "<group>"; };
+		221748F61FF2640300A2B724 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,7 @@
 		221748D91FF1140300A2B724 = {
 			isa = PBXGroup;
 			children = (
+				221748F61FF2640300A2B724 /* .gitignore */,
 				221748E41FF1140300A2B724 /* h2 */,
 				221748E31FF1140300A2B724 /* Products */,
 			);
