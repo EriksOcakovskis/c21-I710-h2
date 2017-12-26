@@ -25,6 +25,11 @@
 /* Begin PBXFileReference section */
 		221748E21FF1140300A2B724 /* h2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = h2; sourceTree = BUILT_PRODUCTS_DIR; };
 		221748E51FF1140300A2B724 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		221748EC1FF1144C00A2B724 /* JsonStructs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonStructs.h; sourceTree = "<group>"; };
+		221748EF1FF1155F00A2B724 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		221748F01FF1157800A2B724 /* ingredients.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ingredients.json; sourceTree = "<group>"; };
+		221748F31FF1322700A2B724 /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+		221748F41FF1341900A2B724 /* prices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = prices.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +62,30 @@
 		221748E41FF1140300A2B724 /* h2 */ = {
 			isa = PBXGroup;
 			children = (
+				221748F21FF1321100A2B724 /* lib */,
+				221748EE1FF114F200A2B724 /* Data */,
 				221748E51FF1140300A2B724 /* main.cpp */,
+				221748EC1FF1144C00A2B724 /* JsonStructs.h */,
 			);
 			path = h2;
+			sourceTree = "<group>";
+		};
+		221748EE1FF114F200A2B724 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				221748F41FF1341900A2B724 /* prices.json */,
+				221748EF1FF1155F00A2B724 /* recipes.json */,
+				221748F01FF1157800A2B724 /* ingredients.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		221748F21FF1321100A2B724 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				221748F31FF1322700A2B724 /* json.hpp */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

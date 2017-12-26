@@ -1,0 +1,30 @@
+[{
+ "name": "pizza base",
+ "quantity": 20,
+ "priceType": 1
+ },
+ {
+ "name": "pizza sauce",
+ "quantity": 15,
+ "priceType": 2
+ },
+ {
+ "name": "cheese",
+ "quantity": 18,
+ "priceType": 2
+ },
+ {
+ "name": "bacon",
+ "quantity": 10,
+ "priceType": 2
+ },
+ {
+ "name": "pineapple",
+ "quantity": 8,
+ "priceType": 2
+ },
+ {
+ "name": "olives",
+ "quantity": 5,
+ "priceType": 2
+}]
